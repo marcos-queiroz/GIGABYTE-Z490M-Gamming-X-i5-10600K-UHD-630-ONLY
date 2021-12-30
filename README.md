@@ -1,12 +1,13 @@
 # GIGABYTE Z490M Gamming X + i5 10600 K + iGPU
 
-![About This Mac - General](https://user-images.githubusercontent.com/23700365/136068125-df272a62-863c-4754-a2ec-c2cba7097d08.png)
+![About This Mac - General](https://raw.githubusercontent.com/marcos-queiroz/GIGABYTE-Z490M-Gamming-X-i5-10600K-UHD-630-ONLY/main/Details/about.png)
 
 **Latest working macOS**: 12.1
 <br>
 **Current OpenCore**: 0.7.6
 
 ## Complete hardware specs
+
 - Intel i5 10600 K
 - Gigabyte Z490M Gamming X
 - iGPU Intel UHD 630
@@ -14,6 +15,7 @@
 - SSD NVME Kingston 500Gb
 
 ## What works
+
 - macOS Monterey
 - Audio
 - HDMI/DP
@@ -23,9 +25,11 @@
 - Shutdown/Reboot/Update to newer macOS builds over time
 
 ## What doesn't work
+
 - N/A
 
 ## Kexts used:
+
 - AppleALC.kext
 - AppleALCU.kext
 - FakePCIID_Intel_HDMI_Audio.kext
@@ -40,9 +44,11 @@
 - XHCI-unsupported.kext
 
 ## Geekbench Results:
+
 - Inside `Details` directory
+- [Geekbench result](https://browser.geekbench.com/v5/cpu/11905286)
 
 ## Thanks/Credits
+
 - [Opencore Team](https://dortania.github.io/getting-started/)
 - [BASE EFI - for 10th Intel Gen - Comet Lake](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-10THGEN-COMET-LAKE)
-
