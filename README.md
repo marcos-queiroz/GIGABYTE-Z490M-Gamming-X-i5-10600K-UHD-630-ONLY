@@ -10,18 +10,18 @@
 
 - Intel i5 10600 K
 - Gigabyte Z490M Gamming X
-- iGPU Intel UHD 630
+- iGPU UHD 630
 - 2x 8Gb DDR4 2666Mhz Kingston Fury
 - SSD NVME Kingston 500Gb
 
 ## What works
 
-- macOS Monterey
+- macOS Big Sur, macOS Catalina and macOS Monterey
 - Audio
 - HDMI/DP
-- USB ports
-- Everything iCloud related (Drive, iMessage, Facetime, etc)
-- Temperature monitoring for everything
+- All USB ports
+- Everything iCloud related (Drive, iMessage, Facetime, unlock with Apple Watch, etc)
+- Temperature monitoring for everything except GPU
 - Shutdown/Reboot/Update to newer macOS builds over time
 
 ## What doesn't work
@@ -31,17 +31,13 @@
 ## Kexts used:
 
 - AppleALC.kext
-- AppleALCU.kext
-- FakePCIID_Intel_HDMI_Audio.kext
 - IntelMausi.kext
-- IntelSnowMausi.kext
 - Lilu.kext
 - SMCProcessor.kext
 - SMCSuperIO.kext
-- USBInjectAll.kext
+- USBMap.kext
 - VirtualSMC.kext
 - WhateverGreen.kext
-- XHCI-unsupported.kext
 
 ## Geekbench Results:
 
